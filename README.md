@@ -2,7 +2,7 @@
 
 NeuralTrip is an AI-powered travel planning system that dynamically generates **personalized, budget-friendly itineraries** based on user preferences such as budget, weather, crowd level, travel mode, and activity interests.
 
-> 🚀 Built with React, Django, PostgreSQL, Python, Google Maps API, and NLP.
+> 🚀 Built with Streamlit (Frontend), Python (Backend), and integrated with Google Maps, Places, and Weather APIs.
 
 ---
 
@@ -19,9 +19,9 @@ NeuralTrip is an AI-powered travel planning system that dynamically generates **
 
 ## 🛠️ Tech Stack
 
-| Frontend       | Backend     | Database   | AI/ML Modules           | APIs & Tools                    |
-|----------------|-------------|------------|--------------------------|----------------------------------|
-| React.js / Next.js | Django / FastAPI | PostgreSQL / Firebase | Python, Scikit-learn, Pandas, NLP | Google Maps API, Places API, Weather API |
+| Frontend       | Backend     | AI/ML Modules           | APIs & Tools                    |
+|----------------|-------------|--------------------------|----------------------------------|
+| Streamlit      | Python      | Scikit-learn, Pandas, NLP | Google Maps API, Places API, Weather API |
 
 ---
 
@@ -31,7 +31,5 @@ NeuralTrip is an AI-powered travel planning system that dynamically generates **
 {
   "budget": 1000,
   "weather": "cool",
-  "crowd": "low",
-  "activities": ["Eating", "Movies", "Parks"],
-  "travel_mode": "Bus"
-}
+  "crowd":
+
